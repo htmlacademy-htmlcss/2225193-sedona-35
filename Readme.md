@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Ольга Перминова](https://up.htmlacademy.ru/htmlcss/35/user/2225193).
-* Наставник: `Неизвестно`.
+* Наставник: [Александр Панасюк](https://htmlacademy.ru/profile/sasha_oldsport).
 
 ---
 
