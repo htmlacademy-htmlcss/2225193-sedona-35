@@ -38,10 +38,13 @@ body {
   text-decoration: none;
 }
 
-.main-index {
+.main-image {
   background-image: url("../images/index-background.jpg");
+  width: 100%;
+  height: 485px;
   background-size: 100% auto;
   background-repeat: no-repeat;
+  text-align: center;
 }
 
 .info {
@@ -109,8 +112,22 @@ body {
   text-align: center;
   text-transform: uppercase;
   background: #756157;
+  border: none;
   border-radius: 4px;
   text-decoration: none;
+}
+
+.field {
+  background: #F2F2F2;
+  border-radius: 4px 0px 0px 4px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  align-items: center;
+  color: #000000;
+  opacity: 0.6;
+  border: none;
+
 }
 
 .newsletter {
@@ -148,4 +165,168 @@ body {
   font-size: 40px;
   line-height: 40px;
   text-decoration: none;
+}
+
+.inner-header {
+  background-image: url("../images/mountains2.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+.inner-header-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+}
+
+.breadcrumbs-link {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.catalog-filter-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+.button-inner-blue {
+  background: #82B3D3;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  border: none;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.button-inner {
+  background: none;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.container {
+  background-color: #FFFFFF;
+}
+
+.search-results-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.select-control {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  background: none;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+}
+
+.sort-button {
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+}
+
+.sort-button-active {
+  border: 2px solid #000000;
+}
+
+.product-card-link {
+  text-decoration: none;
+}
+
+.product-card-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  text-transform: capitalize;
+}
+
+.product-card-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.product-card-buttons {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.product-card-button {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.product-card-button-favorite {
+  font-size: inherit;
+  line-height: inherit;
+  background: #82B3D3;
+}
+
+.product-card-button-green {
+  font-size: inherit;
+  line-height: inherit;
+  background: #7DB54F;
+}
+
+.product-card-rating {
+  background: #F2F2F2;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.pagination-link {
+  background: #82B3D3;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.pagination-current {
+  background: #F2F2F2;
+  color: #000000;
+}
+
+.pagination-ellipsis {
+  background: none;
+  color: #000000;
+}
+
+.newsletter-inner {
+  text-align: center;
+}
+
+.newsletter-inner .newsletter-title {
+  color: #000000;
+}
+
+.newsletter-inner .newsletter-description {
+  color: #333333;
 }
