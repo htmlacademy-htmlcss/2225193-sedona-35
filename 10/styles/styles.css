@@ -1,0 +1,407 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+/* полужирный */
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  background-color: #F2F2F2;
+}
+
+.page-header {
+  color: #000000;
+}
+
+.navigation {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.navigation-logo {
+  width: 140px;
+  margin-right: 40px;
+}
+
+.navigation-list {
+  width: 500px;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-user {
+  width: 260px;
+  margin-left: auto;
+}
+
+.navigation-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+  text-align: center;
+  color: inherit;
+  text-decoration: none;
+}
+
+.main-container {
+  flex-grow: 1;
+}
+
+.main-image {
+  background-image: url("../images/index-background.jpg");
+  width: 100%;
+  height: 485px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.info {
+  text-align: center;
+}
+
+.info-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.info-description {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.services-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.services-item {
+  text-align: center;
+  color: #000000;
+  background: rgba(131, 179, 211, 0.12);
+  width: 400px;
+}
+
+.services-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.services-image {
+  height: 100%;
+}
+
+.services-blue {
+  color: #FFFFFF;
+  background: #82B3D3;
+}
+
+.services-opacity {
+  background: rgba(131, 179, 211, 0.2);
+}
+
+.services-white {
+  background: #FFFFFF;
+}
+
+.discovery {
+  background: #FFFFFF;
+  text-align: center;
+}
+
+.discovery-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.button {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #FFFFFF;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  background: #756157;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.field {
+  background: #F2F2F2;
+  border-radius: 4px 0 0 4px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  align-items: center;
+  color: #000000;
+  opacity: 0.6;
+  border: none;
+
+}
+
+.newsletter {
+  background-image: url("../images/mountains.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.newsletter-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.newsletter-description {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.newsletter-button {
+  background: #82B3D3;
+}
+
+.page-footer {
+  display: flex;
+  background: #FFFFFF;
+  color: #000000;
+  width: 1060px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.contacts-number {
+  color: inherit;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-decoration: none;
+}
+
+.inner-header {
+  background-image: url("../images/mountains2.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  background-color: #000000;
+  padding: 0 70px;
+}
+
+.inner-header-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+}
+
+.breadcrumbs-link {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.catalog-filter {
+  display: flex;
+}
+
+.catalog-filter-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+.button-inner-blue {
+  background: #82B3D3;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  border: none;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.button-inner {
+  background: none;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.container {
+  background-color: #FFFFFF;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.search-results {
+  display: flex;
+  flex-direction: column;
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.search-results-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.select-control {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  background: none;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+}
+
+.sort-button {
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+}
+
+.sort-button-active {
+  border: 2px solid #000000;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  width: 340px;
+}
+
+.product-card-link {
+  text-decoration: none;
+}
+
+.product-card-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  text-transform: capitalize;
+}
+
+.product-card-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.product-card-buttons {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.product-card-button {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.product-card-button-favorite {
+  font-size: inherit;
+  line-height: inherit;
+  background: #82B3D3;
+}
+
+.product-card-button-green {
+  font-size: inherit;
+  line-height: inherit;
+  background: #7DB54F;
+}
+
+.product-card-rating {
+  background: #F2F2F2;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.pagination {
+  display: flex;
+}
+
+.pagination-link {
+  background: #82B3D3;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.pagination-current {
+  background: #F2F2F2;
+  color: #000000;
+}
+
+.pagination-ellipsis {
+  background: none;
+  color: #000000;
+}
+
+.newsletter-inner {
+  text-align: center;
+}
+
+.newsletter-inner .newsletter-title {
+  color: #000000;
+}
+
+.newsletter-inner .newsletter-description {
+  color: #333333;
+}
