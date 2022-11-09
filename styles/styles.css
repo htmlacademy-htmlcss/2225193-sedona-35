@@ -124,7 +124,7 @@ body {
 
 .info {
   text-align: center;
-  padding: 69px 0 90px;
+  padding: 69px 270px 90px;
 }
 
 .info-title {
@@ -150,7 +150,7 @@ body {
 }
 
 .services-item {
-  padding: 92px 85px 100px;
+  padding: 92px 80px 100px;
   text-align: center;
   color: #000000;
   background: rgba(131, 179, 211, 0.12);
@@ -264,6 +264,7 @@ body {
 
 .newsletter-button {
   background: #82B3D3;
+  border-radius: 0 4px 4px 0;
 }
 
 .page-footer {
@@ -440,10 +441,12 @@ body {
   border: 2px solid #000000;
 }
 
+
 .product-list {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 340px);
+  gap: 20px;
+  margin-bottom: 24px;
   list-style-type: none;
   padding: 0;
 }
@@ -464,6 +467,7 @@ body {
 .product-card-image {
   margin-bottom: 16px;
 }
+
 
 .product-card-title {
   margin: 0 0 16px;
