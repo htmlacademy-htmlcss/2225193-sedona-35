@@ -366,6 +366,24 @@ body {
   border-radius: 0 4px 4px 0;
 }
 
+.newsletter-button:hover {
+  background: #68A2CA;
+}
+
+.newsletter-button:focus {
+  background: #68A2CA;
+}
+
+.newsletter-button:active {
+  background: #82B3D3;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.newsletter-button:disabled {
+  background: #E5E5E5;
+  color: #FFFFFF;
+}
+
 .page-footer {
   display: flex;
   background: #FFFFFF;
