@@ -222,6 +222,11 @@ input[type="number"]::-webkit-inner-spin-button {
   list-style-type: none
 }
 
+.services-image {
+  background-size: cover;
+  height: auto;
+}
+
 .services-list:nth-child(odd){
   background-color: rgba(131, 179, 211, 0.2);
 }
@@ -1211,9 +1216,11 @@ input[type="number"]::-webkit-inner-spin-button {
   background-color: rgba(242, 242, 242, 0.8);
 }
 
+/*
 .modal-close {
   display: none;
 }
+*/
 
 .modal {
   position: relative;
@@ -1242,6 +1249,9 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .modal-close-button {
   position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   top: 0;
   right: -15px;
   width: 52px;
@@ -1297,11 +1307,13 @@ input[type="number"]::-webkit-inner-spin-button {
 .search-input-wrapper:before {
   content: "";
   background-image: url('../images/svg/calendar.svg');
+  background-repeat: no-repeat;
   position: absolute;
   top: 14px;
   right: 22px;
   width: 18px;
   height: 17px;
+  opacity: 0.3;
 }
 
 .search-input {
