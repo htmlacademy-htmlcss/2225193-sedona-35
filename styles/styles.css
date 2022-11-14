@@ -1216,11 +1216,9 @@ input[type="number"]::-webkit-inner-spin-button {
   background-color: rgba(242, 242, 242, 0.8);
 }
 
-/*
 .modal-close {
   display: none;
 }
-*/
 
 .modal {
   position: relative;
